@@ -108,7 +108,7 @@ html {
 
 .main__title::before {
     content: "";
-    background-image: url(/images/highlight.svg);
+    background-image: url(https://rik177.github.io/Shaboltas-CPS/images/highlight.svg);
     width: 4px;
     height: 40px;
     position: absolute;
@@ -135,7 +135,7 @@ html {
 
 .main__list::after {
     content: "";
-    background-image: url(/images/fade.svg);
+    background-image: url(https://rik177.github.io/Shaboltas-CPS/images/fade.svg);
     width: 24px;
     height: 40px;
     position: absolute;
@@ -211,7 +211,7 @@ html {
 
 .main__read-next::before {
     content: "";
-    background-image: url(/images/expand.svg);
+    background-image: url(https://rik177.github.io/Shaboltas-CPS/images/expand.svg);
     width: 7.41px;
     height: 10.29px;
     display: block;
