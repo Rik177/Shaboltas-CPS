@@ -77,7 +77,7 @@ html {
 .header__right::before {
     content: "";
     display: block;
-    background-image: url(/images/divider.svg);
+    background-image: url(https://rik177.github.io/Shaboltas-CPS/images/divider.svg);
     width: 2px;
     height: 32px;
     margin-right: 20px;
@@ -238,7 +238,7 @@ html {
     .header__left::after {
         content: "";
         display: block;
-        background-image: url(/images/divider.svg);
+        background-image: url(https://rik177.github.io/Shaboltas-CPS/images/divider.svg);
         width: 2px;
         height: 32px;
         margin-right: 20.73px;
