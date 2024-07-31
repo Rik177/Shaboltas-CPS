@@ -234,7 +234,7 @@ html {
         margin-right: 20.73px;
     }
 
-    .nav__menue::after {
+    .header__left::after {
         content: "";
         display: block;
         width: 2px;
