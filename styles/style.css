@@ -72,13 +72,12 @@ html {
     margin-right: 16px;
 }
 
-.nav__repair::before {
+.header__right::before {
     content: "";
     display: block;
+    background-image: url(/images/divider.svg);
     width: 2px;
     height: 32px;
-    border-radius: 1px;
-    background-color: #EAEAEA;
     margin-right: 20px;
 }
 
@@ -113,6 +112,7 @@ html {
     height: 40px;
     position: absolute;
     left: 0;
+    order: 1;
 }
 
 .main__nav-links {
@@ -141,6 +141,7 @@ html {
     position: absolute;
     right: 0;
 }
+
 
 .main__list-item {
     white-space: nowrap;
@@ -183,22 +184,22 @@ html {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.2px;
-    line-height: 20px;
+    line-height: 18px;
 }
 
-.main__article-p--2 {
-    display: none;
+.main__article-container {
+    height: 90px;
+    overflow: hidden;
 }
+
+
 .main__image {
     min-width: 320px;
     height: auto;
     margin-left: -16px;
-    
 }
 
-.hidden-text {
-    display: none;
-}
+
 .main__read-next {
     display: block;
     font-family: TT Lakes, serif;
@@ -237,27 +238,22 @@ html {
     .header__left::after {
         content: "";
         display: block;
+        background-image: url(/images/divider.svg);
         width: 2px;
         height: 32px;
-        border-radius: 1px;
-        background-color: #EAEAEA;
-        margin-left: 20px;
+        margin-right: 20.73px;
     }
 
-    .nav__call {
+    .nav__logo {
+        order: 2;
+    }
+
+    .nav__tablet {
         display: block;
         margin-right: 16px;
-    }
-    .nav__chat {
-        display: block;
-        margin-right: 16px;
-    }
-    .nav__profile {
-        display: block;
-        margin-right: 20px;
+        order: -1;
     }
     
-
     .main__services {
         display: flex;
         flex-direction: column;
@@ -274,8 +270,18 @@ html {
         min-height: 208px;
     }
 
+    .main__article-container {
+        height: 160px;
+        overflow: hidden;
+        width: 312px;
+    }
+
+    .main__article-p {
+        line-height: 20px;
+    }
+
     .main__article-p--1 {
-        margin-bottom: 14px;
+        margin-bottom: 20px;
     }
 
     .main__image {
@@ -283,9 +289,6 @@ html {
         border-radius: 6px;
     }
 
-    .main__article-p--2 {
-        display: block;
-    }
 }
 
 
@@ -339,12 +342,13 @@ html {
         flex-wrap: wrap;
     }
 
-    .hidden-text {
-        display: inline;
-    }
 
     .main__image {
         min-width: 531.35px;
+    }
+
+    .main__article-container {
+        width: 490px;
     }
 
     .main__article {
